@@ -1,0 +1,30 @@
+100 REM  
+110 REM  CHECK APPLE2 PLUS CONTINUOUS PROPER OUTPUT CODE
+120 REM
+130 REM  ASCII CODE CHECK 35 <=> 95 
+140 REM  >>>   #$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_   <<<
+150 REM
+
+200 REM  ALL ASCII CODE OUTPUT
+210 REM  #$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+220 PRINT "PRINT ALL ASCII CODE :"
+225 PRINT "        CHECK OUTPUT CHARACTOR"
+230 PRINT "----------------------------------------";
+240 A$=" !#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~"
+250 PRINT A$
+260 PRINT "----------------------------------------";
+270 PRINT ""
+
+300 REM  CONTINUOUS ASCII CODE OUTPUT
+305 REM  THIS IS APPLE2PLUS MONITOR ROM RULE
+310 REM  #$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+320 PRINT "PRINT CONTINUOUS ASCII CODE :"
+325 PRINT "        CHECK OUTPUT CHARACTOR"
+330 PRINT "----------------------------------------";
+340 A$="#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_"
+350 PRINT A$
+360 PRINT "----------------------------------------";
+370 PRINT ""
+
+900 END
+RUN
